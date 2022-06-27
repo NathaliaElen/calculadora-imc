@@ -17,22 +17,22 @@
         <form>
             <div class="input">
                 <label for="nome">Nome:</label>
-                <input type="text" name="nome" id="nome" placeholder="Nathália" required>
+                <input type="text" name="nome" id="nome" placeholder="Nathália">
             </div>
 
             <div class="input">
                 <label for="altura">Altura:</label>
-                <input type="number" name="altura" id="altura" placeholder="1,66" required>
+                <input type="number" name="altura" id="altura" placeholder="1,66">
             </div>
 
             <div class="input">
                 <label for="peso">Peso:</label>
-                <input type="number" name="peso" id="peso" placeholder="78,5" required>
+                <input type="number" name="peso" id="peso" placeholder="78,5">
             </div>
 
-            <button id="btn" type="submit" onclick="notificar()">Calcular</button>
+            <button id="calcular" type="submit">Calcular</button>
 
-            <div class="result"></div>
+            <div class="result" id="resultado"></div>
         </form>
     </main>
 
